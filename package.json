@@ -2,7 +2,7 @@
   "name": "react-navbar-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://1k2k.github.io/react-gh-pages",
+  "homepage": "http://1k2k.github.io/medium-boostrap-src",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.0.0",
