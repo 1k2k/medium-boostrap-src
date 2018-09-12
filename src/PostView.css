@@ -1,0 +1,51 @@
+@-webkit-keyframes easeInRounded {
+0%{-webkit-box-shadow:0 0 0 0 #34e79a;box-shadow:0 0 0 0 #34e79a}
+70%{-webkit-box-shadow:0 0 5px 10px rgba(255,255,255,0);box-shadow:0 0 5px 10px rgba(255,255,255,0)}
+100%{-webkit-box-shadow:0 0 0 0 rgba(255,255,255,0);box-shadow:0 0 0 0 rgba(255,255,255,0)}
+}
+@keyframes easeInRounded {
+0%{-webkit-box-shadow:0 0 0 0 #34e79a;box-shadow:0 0 0 0 #34e79a}
+70%{-webkit-box-shadow:0 0 5px 10px rgba(255,255,255,0);box-shadow:0 0 5px 10px rgba(255,255,255,0)}
+100%{-webkit-box-shadow:0 0 0 0 rgba(255,255,255,0);box-shadow:0 0 0 0 rgba(255,255,255,0)}
+}
+@-webkit-keyframes easeInRoundedView {
+0%{-webkit-box-shadow:0 0;box-shadow:0 0}
+70%{-webkit-box-shadow:0 0 5px 10px rgba(255,255,255,0);box-shadow:0 0 5px 10px rgba(255,255,255,0)}
+100%{-webkit-box-shadow:0 0 0 0 rgba(255,255,255,0);box-shadow:0 0 0 0 rgba(255,255,255,0)}
+}
+@keyframes easeInRoundedView {
+0%{-webkit-box-shadow:0 0;box-shadow:0 0}
+70%{-webkit-box-shadow:0 0 5px 10px rgba(255,255,255,0);box-shadow:0 0 5px 10px rgba(255,255,255,0)}
+100%{-webkit-box-shadow:0 0 0 0 rgba(255,255,255,0);box-shadow:0 0 0 0 rgba(255,255,255,0)}
+}
+.list-page .list-signup-form{position:relative;max-width:435px;height:42px;margin:0 auto}
+.list-page .list-image img{width:auto;max-height:80px;margin:0 auto 20px}
+.fly-label label{position:absolute;top:3px!important;left:12px!important;display:none;margin:0!important;font-size:12px;color:#ccc;z-index:3}
+.comment{margin-bottom:25px}
+.comment .posted{color:#999;font-size:.8rem;margin-bottom:10px}
+.comment.last{margin-bottom:0}
+.comment p{font-size:.9rem}
+.postContentSection pre{background:rgba(0,0,0,.05);padding:20px;white-space:pre-wrap;margin-top:30px}
+.postContentSection p{margin-top:30px}
+.clapIcon{fill:#03a87c;color:#34e79a;border:1px solid rgba(0,0,0,.15);padding:6px 10px}
+.clapIcon:hover{-webkit-animation:easeInRoundedView 2s infinite;animation:easeInRoundedView 2s infinite}
+.minDivider{margin-bottom:20px;border-top:2px solid rgba(0,0,0,.54);width:75px}
+.postSocialBar{visibility:hidden;position:fixed;left:0;right:0;bottom:0;height:0;z-index:500;-webkit-transition:visibility 0 linear .3s;transition:visibility 0 linear .3s}
+.postSocialBar.isVisible{visibility:visible;-webkit-transition-delay:0;transition-delay:0}
+.postSocialBarCon{position:relative;height:0;-webkit-transform:translateZ(0);transform:translateZ(0)}
+.postSocialBarContent{-webkit-box-sizing:border-box;box-sizing:border-box;position:absolute;width:100%;bottom:0;-webkit-transform:translateY(100%);transform:translateY(100%);-webkit-transition:-webkit-transform .3s;transition:-webkit-transform .3s;transition:transform .3s;transition:transform .3s,-webkit-transform .3s}
+.postSocialBar.isVisible .postSocialBarContent{-webkit-transform:translateY(0);transform:translateY(0)}
+.postSocial{background:#fff}
+.postSocial .iconSetDivider{background-color:rgba(0,0,0,.15);margin:6px 16px}
+@media (max-width:767px) {
+.postSocialBarContent{-webkit-border-radius:0;border-radius:0}
+}
+.inlineEditor{height:76px;overflow:hidden}
+.commentEditor .commentEditorArea{ border: none;
+	background-color: transparent;
+    resize: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;width: 100%;}
